@@ -1,0 +1,45 @@
+#!/usr/bin/env fontforge
+
+Open("MatrkaSerif-Regular.sfd");
+Generate("MatrkaSerif-Regular.ttf");
+SetFontNames("MatrkaSerifWeb", "Matrka Serif Web", "Matrka Serif Web");
+Select(0x0370, 0x03ff, 0x1f00, 0x1fff);
+Clear();
+Select(0x0400, 0x04ff, 0x0500, 0x052f, 0x2de0, 0x2dff, 0xa640, 0xa69f);
+Clear();
+Save("MatrkaSerifWeb-Regular.sfd");
+Generate("MatrkaSerifWeb-Regular.ttf");
+Close();
+
+Open("MatrkaSerif-Italic.sfd");
+Generate("MatrkaSerif-Italic.ttf");
+SetFontNames("MatrkaSerifWeb-Italic", "Matrka Serif Web", "Matrka Serif Web Italic");
+Select(0x0370, 0x03ff, 0x1f00, 0x1fff);
+Clear();
+Select(0x0400, 0x04ff, 0x0500, 0x052f, 0x2de0, 0x2dff, 0xa640, 0xa69f);
+Clear();
+Save("MatrkaSerifWeb-Italic.sfd");
+Generate("MatrkaSerifWeb-Italic.ttf");
+Close();
+
+Open("MatrkaSerif-Bold.sfd");
+Generate("MatrkaSerif-Bold.ttf");
+SetFontNames("MatrkaSerifWeb-Bold", "Matrka Serif Web", "Matrka Serif Web Bold");
+Select(0x0370, 0x03ff, 0x1f00, 0x1fff);
+Clear();
+Select(0x0400, 0x04ff, 0x0500, 0x052f, 0x2de0, 0x2dff, 0xa640, 0xa69f);
+Clear();
+Save("MatrkaSerifWeb-Bold.sfd");
+Generate("MatrkaSerifWeb-Bold.ttf");
+Close();
+
+Open("MatrkaSerif-BoldItalic.sfd");
+Generate("MatrkaSerif-BoldItalic.ttf");
+SetFontNames("MatrkaSerifWeb-BoldItalic", "Matrka Serif Web", "Matrka Serif Web Bold Italic");
+Select(0x0370, 0x03ff, 0x1f00, 0x1fff);
+Clear();
+Select(0x0400, 0x04ff, 0x0500, 0x052f, 0x2de0, 0x2dff, 0xa640, 0xa69f);
+Clear();
+Save("MatrkaSerifWeb-BoldItalic.sfd");
+Generate("MatrkaSerifWeb-BoldItalic.ttf");
+Close();

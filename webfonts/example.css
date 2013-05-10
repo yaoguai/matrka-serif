@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Matrka Serif Web';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/MatrkaSerifWeb-Regular.eot?') format('eot'),
+       url('fonts/MatrkaSerifWeb-Regular.woff') format('woff'),
+       url('fonts/MatrkaSerifWeb-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Matrka Serif Web';
+  font-weight: normal;
+  font-style: italic;
+  src: url('fonts/MatrkaSerifWeb-Italic.eot?') format('eot'),
+       url('fonts/MatrkaSerifWeb-Italic.woff') format('woff'),
+       url('fonts/MatrkaSerifWeb-Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Matrka Serif Web';
+  font-weight: bold;
+  font-style: normal;
+  src: url('fonts/MatrkaSerifWeb-Bold.eot?') format('eot'),
+       url('fonts/MatrkaSerifWeb-Bold.woff') format('woff'),
+       url('fonts/MatrkaSerifWeb-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Matrka Serif Web';
+  font-weight: bold;
+  font-style: italic;
+  src: url('fonts/MatrkaSerifWeb-BoldItalic.eot?') format('eot'),
+       url('fonts/MatrkaSerifWeb-BoldItalic.woff') format('woff'),
+       url('fonts/MatrkaSerifWeb-BoldItalic.ttf') format('truetype');
+}
+body {
+    font-family: "Matrka Serif Web", monospace;
+    font-size: 17px;
+    line-height: 28px;
+}
